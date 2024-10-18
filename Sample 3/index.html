@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact us 3</title>
+    <title>Contact Page 3</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <article>
         <section>
             <h5>Get in Touch</h5>
             <h3>Convey your</h3>
             <h3>Ideas to us</h3>
-            <p>Contact us for questions, technical assistance, or collaboration opportunities via the contact information provided.</p>
+            <p class="para">Contact us for questions, technical assistance, or collaboration opportunities via the
+                contact information provided.</p>
             <div class="contact">
                 <img src="images/phone-icon.png" alt="phone">
                 <p>+123-456-7890</p>
@@ -21,24 +24,27 @@
                 <img src="images/email-icon.png" alt="email">
                 <p>hello@reallygreatsite.com</p>
             </div>
-            <div>
+            <div class="contact">
                 <img src="images/location-icon.png" alt="location">
                 <p>123 Anywhere ST., Any City, 12345</p>
             </div>
         </section>
         <section>
             <form action="">
-                <label>Name</label>
-                <input type="text">
-                <label>Email</label>
-                <input type="email" name="email" id="email">
-                <label>Phone number</label>
-                <input type="tel" name="phone" id="phone">
-                <label>Message</label>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+                <div class="form-col">
+                    <label for="email">Email
+                    <input type="email" name="email" id="email"></label>
+                    <label for="phone">Phone number
+                    <input type="tel" name="phone" id="phone"></label>
+                </div>
+                <label for="message">Message</label>
                 <textarea name="message" id="message"></textarea>
-                <button>Submit now</button>
+                <button class="btn">Submit now</button>
             </form>
         </section>
     </article>
 </body>
+
 </html>
